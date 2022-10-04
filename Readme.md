@@ -16,14 +16,14 @@ The Shell or Command Line Interpreter is the fundamental User interface to
 an Operating System. The lab project is to write a simple shell - myshell -
 that has the following functions:<br><br>
 
-cd - change working directory<br>
-clr - clear the screen<br>
-dir - list the contents of the directory<br>
-environ - list all the environment string<br>
-echo - display the diaply followed by a new line<br>
-help - display the user manual using the more filter<br>
-pause - pause operation of the shell<br>
-quit - quit the shell<br><br>
+mycd - change working directory<br>
+myclr - clear the screen<br>
+mydir - list the contents of the directory<br>
+myenviron - list all the environment string<br>
+myecho - display the diaply followed by a new line<br>
+myhelp - display the user manual using the more filter<br>
+mypause - pause operation of the shell<br>
+myquit - quit the shell<br><br>
 
 
 
@@ -35,11 +35,11 @@ For example: ./myshell commands.txt <br>
 
 The following are the commands for the shell: <br><br>
 
-help :  Lists the help menu <br>
-dir "directory":  Lists the contents of the directory <br>
-environ: Lists all the environment strings <br>
-echo "comment": Displays comment on the command line followed by a newline <br>
-clr. Clears the screen <br>
-cd "path": Changes the working directory to the specified path. <br>
-pause: Pauses operation of the shell until the ENTER key is hit <br>
-quit: Quits the shell <br>
+myhelp :  Lists the help menu <br>
+mydir "directory":  Lists the contents of the directory <br>
+myenviron: Lists all the environment strings <br>
+myecho "comment": Displays comment on the command line followed by a newline <br>
+myclr. Clears the screen <br>
+mycd "path": Changes the working directory to the specified path. <br>
+mypause: Pauses operation of the shell until the ENTER key is hit <br>
+myquit: Quits the shell <br>

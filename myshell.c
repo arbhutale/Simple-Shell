@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     // Perform an infinite loop getting command input from users
 	
 	printf("\n-------------------------------------------------------\n");
-	printf("\nWelcome to the shell!, type help to discover more commands\n\n");
+	printf("\nWelcome to the shell!, type myhelp to discover more commands\n\n");
 	get_currentDir(pwd);
 	get_currentDir(myshell);
 	strcpy(environ[0], "PWD: ");
